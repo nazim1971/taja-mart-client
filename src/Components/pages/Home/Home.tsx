@@ -1,9 +1,10 @@
+import Nav from "./Nav";
 
 
 const Home = () => {
     return (
-        <div className="text-2xl">
-            This is my home page
+        <div >
+            <Nav/>
         </div>
     );
 };
