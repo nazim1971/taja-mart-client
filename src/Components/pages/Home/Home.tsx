@@ -1,10 +1,14 @@
+import AllProducts from "./AllProducts";
+import Banner from "./Banner";
 import Nav from "./Nav";
 
 
 const Home = () => {
     return (
-        <div >
+        <div className="min-h-screen" >
             <Nav/>
+            <Banner/>
+            <AllProducts/>
         </div>
     );
 };

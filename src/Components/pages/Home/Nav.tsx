@@ -11,21 +11,23 @@ const Nav = () => {
 
     return (
         <div >
+            {/* Nav top */}
             <div className="bg-blue-400">
            <nav  className="h-[50px] flex justify-center items-center w-[1290px] mx-auto text-white ">
             আমাদের যে কোন পণ্য অর্ডার করতে কল বা WhatsApp করুন:  +8801321208940 
             </nav>
            </div>
-           <div className="lg:w-[1290px] mx-auto"   >
-           
-
-            <nav className="h-20 flex  mx-auto justify-between items-center border  ">
+           {/* Nap center */}
+           <div className="">
+           <nav className="h-20 flex  w-[1290px] mx-auto justify-between items-center border  ">
             <BsSearch className="col-start-1" />
-            <img className="h-16 w-16 rounded-xl " src="https://i.ibb.co/QcPMHwG/Screenshot-2024-08-08-004934.png" alt="" />
+            <img className="h-[65px] rounded-xl " src="https://ghorerbazar.com/cdn/shop/files/logo.webp?v=1707766182&width=500" alt="" />
             <FaShoppingBag />
             </nav>
-
-            <nav className="flex h-12 items-center px-3 bg-stone-200 justify-between">
+           </div>
+                {/* Nav bottom */}
+           <div className="bg-stone-200 "   >
+            <nav className="flex lg:w-[1290px] mx-auto h-12 items-center px-3 justify-between">
            {
             allCat.map((i,idx)=>
             <p key={idx}>
@@ -34,9 +36,6 @@ const Nav = () => {
            }
             </nav>
            </div>
-
-          
-
 
         </div>
     );
