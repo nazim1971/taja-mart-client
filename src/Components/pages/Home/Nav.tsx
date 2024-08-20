@@ -1,5 +1,6 @@
 import { BsSearch } from "react-icons/bs";
 import { FaShoppingBag } from "react-icons/fa";
+import NavTop from "../Nav/NavTop";
 
 
 const Nav = () => {
@@ -35,6 +36,8 @@ const Nav = () => {
             </p>)
            }
             </nav>
+            {/* Nav Search */}
+            <NavTop/>
            </div>
 
         </div>
