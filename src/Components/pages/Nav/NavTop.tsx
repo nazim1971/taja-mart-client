@@ -3,7 +3,7 @@ import { FaShoppingBag } from "react-icons/fa";
 
 const NavTop = () => {
     return (
-        <div className="bg-slate-200 py-8">
+        <div className="bg-slate-200 py-8 absolute w-full">
             <nav className=" w-[1290px] mx-auto place-items-center grid grid-cols-4 gap-8 justify-items-center">
               <img className="h-16" src="https://ghorerbazar.com/cdn/shop/files/logo.webp?v=1707766182&width=500" alt="" />
                 <div className="col-span-2">

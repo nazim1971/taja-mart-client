@@ -12,6 +12,8 @@ const Nav = () => {
 
     return (
         <div >
+             {/* Nav Search */}
+             <NavTop/>
             {/* Nav top */}
             <div className="bg-blue-400">
            <nav  className="h-[50px] flex justify-center items-center w-[1290px] mx-auto text-white ">
@@ -36,8 +38,7 @@ const Nav = () => {
             </p>)
            }
             </nav>
-            {/* Nav Search */}
-            <NavTop/>
+           
            </div>
 
         </div>
