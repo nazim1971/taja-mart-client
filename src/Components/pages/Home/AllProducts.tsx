@@ -21,7 +21,7 @@ const AllProducts = () => {
 
     return (
         <div className="my-20">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:w-[1290px] mx-auto  ">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:w-[1290px] mx-auto  ">
                 {
                     products.map((i,idx)=>
                     <div key={idx} className="h-[450px] border-2 p-4 flex flex-col justify-center ">
