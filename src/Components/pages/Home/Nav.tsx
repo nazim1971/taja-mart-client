@@ -12,7 +12,7 @@ const Nav = () => {
 
     return (
         <div >
-             {/* Nav Search */}
+             {/**** Nav Search *****/}
              <NavTop/>
             {/* Nav top */}
             <div className="bg-blue-400">
