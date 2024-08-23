@@ -16,7 +16,7 @@ const Nav = () => {
              <NavTop/>
             {/* Nav top */}
             <div className="bg-blue-400">
-           <nav  className="h-[50px] flex justify-center items-center w-[1290px] mx-auto text-white ">
+           <nav  className="h-[50px] flex justify-center items-center lg:w-[1290px] mx-auto text-white ">
             আমাদের যে কোন পণ্য অর্ডার করতে কল বা WhatsApp করুন:  +8801321208940 
             </nav>
            </div>
